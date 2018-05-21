@@ -1,0 +1,352 @@
+
+/* CSS RESET CODE  Organized BY RASHEDUL ISLAM */
+body,
+html,
+div,
+blockquote,
+img,
+label,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+dl,
+dt,
+dd,
+form,
+a,
+fieldset,
+input,
+th,
+td,
+ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary { display: block }
+body {
+    line-height: 1.4678;
+    font-size: 14px% /* Decide for yourself if you want to include this. */;
+	color:#333;
+	letter-spacing:1px;
+}
+/* fonts */
+@import url(http://fonts.googleapis.com/css?family=Satisfy);
+@import url(http://fonts.googleapis.com/css?family=Dancing+Script);
+h1 {
+    display: block;
+    font-size: 2em;
+    margin: 0.67em 0;
+    font-weight: bold;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin: 0.83em 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+h3 {
+    display: block;
+    margin: 1em 0;
+    font-weight: bold;
+}
+h4 {
+    display: block;
+    margin: 1.33em 0;
+    font-weight: bold;
+}
+h5 {
+    display: block;
+    margin: 1.67em 0;
+    font-size: .83em;
+    font-weight: bold;
+}
+h6 {
+    display: block;
+    font-size: .67em;
+    margin: 2.33em 0;
+    font-weight: bold;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover { text-decoration: none }
+/* CUSTOM FREAME WORK */
+p { margin: 20px 0 }
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+section {
+    float: left;
+    width: 100%;
+}
+
+.container:before,
+.container:after {
+    content: "";
+    display: table;
+}
+.container:after { clear: both }
+/* CUSTOM CSS */
+header {
+    border-bottom: 3px solid #29c0d3;
+    float: left;
+    margin: 15px 0;
+    width: 100%;
+}
+.logo {
+    width: 40%;
+    float: left;
+}
+.logo img { width: 32% }
+nav {
+    float: left;
+    height: auto;
+    margin-top: 21px;
+    width: 60%;
+}
+nav ul { }
+nav ul  li {
+    float: left;
+    list-style: none;
+}
+nav ul  li a {
+    padding: 16px 31px;
+    margin-right: 13px;
+    text-transform: capitalize;
+}
+nav ul  li a:hover {
+    border: 1px solid #ccc;
+    padding: 15px 30px;
+    box-shadow: 2px 2px 5px 0 #ccc;
+}
+.slider {
+    background: url("_assets/images/Woman-on-Sofa.jpg") no-repeat scroll 504px center rgba(0, 0, 0, 0);
+    float: left;
+    padding: 50px 0;
+    position: relative;
+    width: 100%;
+}
+.pattern {
+    background: url("_assets/images/pattern.png");
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.slider_info {
+    background: none repeat scroll 0 0 rgba(207, 19, 69, 0.9);
+    color: white;
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 0px 20px 42px 20px;
+}
+.slider_info h2 {
+    font-size: 35px;
+    margin-bottom: 7px;
+    margin-top: 19%;
+}
+.slider_info h1 {
+    font-family: 'Satisfy', cursive;
+    font-size: 70px;
+    margin-bottom: 3px;
+    margin-top: 10px;
+}
+.slider_info span {
+    font-size: 35px;
+    margin-bottom: 7px;
+}
+.slider_img {
+    float: left;
+    width: 50%;
+}
+.slider_img img { width: 100% }
+.objectives {
+    padding: 50px 0;
+    text-align: center;
+}
+.service { padding: 50px 0 }
+p {
+    color: #080808;
+    font-family: "Raleway",sans-serif;
+    font-weight: 400;
+    line-height: 1.3;
+}
+h2[type="title"] {
+    font-size: 41px;
+    margin-bottom: 54px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+.objectives .col {
+    text-align: center;
+    border: none;
+}
+.icon { text-align: center }
+.objectives .col .icon img {
+    width: 30px;
+    height: 30px;
+    padding: 20px;
+    border: 1px solid #2AC0D1;
+    border-radius: 50%;
+}
+.col {
+    border: 2px solid #29C0D3;
+    float: left;
+    margin: 0 15px;
+    width: 273px;
+    position: relative;
+}
+.col:first-of-type,
+.col3:first-of-type {
+    margin-left: 0;
+    padding-left: 0;
+}
+.col:last-of-type,
+.col3:last-of-type {
+    margin-right: 0;
+    padding-right: 0;
+}
+.service_info {
+    text-align: center;
+    padding-bottom: 15px;
+}
+.col img { height: 275px }
+.col  img { width: 100% }
+.product .col {
+    border: none;
+    width: 276px;
+}
+.product .col .price {
+    background: none repeat scroll 0 0 #2ac0d1;
+    bottom: 0;
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 0 10px;
+    position: absolute;
+    right: 0;
+}
+.single_product {
+    background: none repeat scroll 0 0 #f7f7f7;
+    margin: 50px 0;
+    padding: 56px 0;
+}
+.product_info {
+    width: 570px;
+    float: left;
+}
+.product_info h1 { font-family: 'Roboto', sans-serif }
+.product_info h2 {
+    color: #29c0d3;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+.product_img {
+    float: right;
+    width: 500px;
+}
+.product { padding: 50px 0 }
+img { width: 100% }
+a[type="read_more"] {
+    background: none repeat scroll 0 0 #29c0d3;
+    border: 1px solid #fff;
+    border-radius: 6px;
+    color: white;
+    line-height: 2.6;
+    padding: 10px 20px;
+}
+footer {
+    float: left;
+    margin-top: 50px;
+    width: 100%;
+}
+footer p { color: #eee }
+.footer_top {
+    color: #eee;
+    background: none repeat scroll 0 0 #191919;
+    clear: both;
+    float: left;
+    padding: 25px 0;
+    width: 100%;
+}
+.col3 {
+    padding: 0 20px;
+    width: 373px;
+    float: left;
+}
+.twitter img {
+    float: left;
+    padding-right: 17px;
+    padding-top: 13px;
+    width: 40px;
+}
+.twitter span,
+em { color: #00ACED }
+.newsletter { }
+form input[name="news"] {
+    border-radius: 3px;
+    padding: 7px 0;
+    width: 55%;
+}
+form a {
+    background: none repeat scroll 0 0 #2ac0d1;
+    border-radius: 3px;
+    color: white;
+    margin-left: -6px;
+    padding: 6px;
+}
+.implink { }
+.implink ul {
+    color: #2AC0D1;
+    list-style: outside none square;
+}
+.implink  li {
+    margin: 7px 0;
+    margin-left: 17px;
+}
+.implink a { color: #eee }
+.footer_bottom {
+    background: none repeat scroll 0 0 #28292b;
+    float: left;
+    padding: 20px 0;
+    width: 100%;
+    color: #eee;
+}
+.footer_logo { float: left }
+.copyright { }
+.copyright a { color: #29C0D3 }
+.social_area li {
+    display: inline;
+    list-style: outside none none;
+    margin-right: 25px;
+}
+.social_area img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
